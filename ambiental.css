@@ -5,7 +5,7 @@
 }
 
 .container1{
-    background-image: url("./public/imgambien.jpg");
+    background-image: url("./public/ambien2.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
@@ -31,10 +31,18 @@
    
 }
 
-.subcontainer1 div>span{
-    font-size: 2rem;
-    color: green;
+.subcontainer1 .prin>:nth-child(1){
+    display: flex;
+    font-size: 3rem;
+    color:#1d8348;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    gap: 10px;
+}
+
+.subcontainer1 .prin>:nth-child(2){
+    font-size: 1rem;
+    color: #1d8348;
 }
 
 
